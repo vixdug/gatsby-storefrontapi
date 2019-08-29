@@ -7,7 +7,7 @@ import { Flex, Box } from '@rebass/grid/emotion'
 import StoreContext from '../../context/StoreContext'
 
 const Wrapper = styled.div({
-	background: `rebeccapurple`,
+	background: `black`,
 	marginBottom: `1.45rem`,
 })
 
@@ -87,7 +87,7 @@ const Navigation = ({ siteTitle }) => {
 								{quantity}
 							</CartCounter>
 						}
-						Cart 🛍
+						Cart
 					</H1>
 				</Box>
 			</Container>
